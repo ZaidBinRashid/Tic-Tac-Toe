@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@700&family=Poppins:ital,wght@0,100;0,300;1,100;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  font-family: 'roboto',monospace,arial;
+}
+
+#gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  max-width: 500px;
+  margin-bottom: 100px;
+}
+
+.square {
+  border: 1px solid black;
+  width: 25%;
+  height: 40%;
+  text-align: center;
+  font-size: 80px;
+}
+
+.buttons{
+  margin-top: 20px;
+}
+
+button{
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input{
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: medium;
+}
